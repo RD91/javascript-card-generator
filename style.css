@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background: #F2F2F2;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 0px 0px;
+
+}
+.card-content{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+h1,p{
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+p{
+    font-style: normal;
+    font-size: 17px;
+    margin: 1em;
+    color: #6B6B6B;
+}
+h6,h1,p{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+}
+h1{
+    font-size: 35px;
+    line-height: 46px;
+    color: #000000;
+}
+h6{
+
+    font-size: 15px;
+    line-height: 33px;
+    margin: 1em .4em;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
+img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    text-decoration: none;
+    padding: 1em 1.5em;
+    color: #F2F2F2;
+    background-color: #059862;
+    letter-spacing: 0.15em;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: Rubik;
+}
+input{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #AFAFAF;
+    padding: 1em;
+    width: 40em;
+    height: 40px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    margin: 1.2em;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+}
