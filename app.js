@@ -15,7 +15,7 @@ const createcard = () => {
     const img = document.createElement("img");
     const para = document.createElement("p");
     const title = document.createElement("h1");
-    const images = ['/pexels-alexandre-weiss-9443251.jpg','/pexels-any-lane-5727715.jpg','/pexels-beyza-efe-8263404.jpg','/pexels-dids-2456348.jpg']
+    const images = ['pexels-alexandre-weiss-9443251.jpg','pexels-any-lane-5727715.jpg','pexels-beyza-efe-8263404.jpg','pexels-dids-2456348.jpg']
 
     if (inputimgsrc.value == "random") {
         const Ig = rangerandom(0,images.length)
